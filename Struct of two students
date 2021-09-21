@@ -1,0 +1,52 @@
+#include<stdio.h>
+
+void main()
+
+{
+
+  struct student
+
+  {
+
+    char name[10];
+
+    int rollno;
+
+  };
+
+struct student s1,s2;
+
+printf("\nThe Name  of first student: ");
+
+scanf("%s",&s1.name);
+
+printf("\nThe Roll No is : ");
+
+scanf("%d",&s1.rollno);
+
+printf("\nThe Name  of second student : ");
+
+scanf("%s",&s2.name);
+
+printf("\nThe Roll No is : ");
+
+scanf("%d",&s2.rollno);
+
+//printf("\nDetails of student 1");
+
+printf("\nThe Name of  student is %s",s1.name);
+
+printf("\nThe Roll No is %d",s1.rollno);
+
+ 
+
+//printf("\nDetails of student 2");
+
+printf("\nThe Name of  student is %s",s2.name);
+
+printf("\nThe Roll No is %d",s2.rollno);
+
+}
+
+    
+
